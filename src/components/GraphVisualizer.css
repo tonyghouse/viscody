@@ -1,0 +1,12 @@
+.light-canvas-style{background: radial-gradient(circle, #141414 0.1%, transparent 11%);
+    background-size: 1em 1em;
+    background-color: white;
+    opacity: 1
+  }
+  
+  .dark-canvas-style{
+    background: radial-gradient(circle, #fcfcfc 0.1%, transparent 11%);
+    background-size: 1em 1em;
+    background-color: #020817;
+    opacity: 1
+    }
