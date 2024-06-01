@@ -1,3 +1,4 @@
+"use client"
 import { useContext, useEffect, useState } from "react";
 import HomeSection from "./HomeSection";
 import NavBar from "./Navbar";
@@ -5,8 +6,7 @@ import NavBar from "./Navbar";
 import { IThemeContextType, ThemeContext } from "../context/ThemeContext";
 import ErrorBoundary from "./ErrorBoundary";
 import ErrorPage from "./ErrorPage";
-import { FaNfcDirectional } from "react-icons/fa6";
-import TestComp from "./TestComp";
+
 
 function MasterLayout() {
   const rotationValues: string[] = ["DOWN", "RIGHT", "UP", "LEFT"];

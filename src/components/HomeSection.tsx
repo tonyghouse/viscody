@@ -1,7 +1,8 @@
-import React from "react";
+"use client"
 import "./HomeSection.css";
 import { useResizeObserver } from "@react-hookz/web";
 import { ReactElement, useContext, useEffect, useRef, useState } from "react";
+{/* @ts-ignore */}
 import SplitPane, { SplitPaneProps } from "react-split-pane";
 
 import { IThemeContextType, ThemeContext } from "../context/ThemeContext";

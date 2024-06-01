@@ -1,3 +1,4 @@
+"use client"
 import Editor from "@monaco-editor/react";
 import { ReactElement, useContext, useEffect, useRef } from "react";
 import { DataTypeContext, IDataTypeContextType } from "../context/DataTypeContext";

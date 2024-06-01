@@ -1,6 +1,7 @@
+"use client"
 import { ReactElement } from "react";
 // @ts-ignore
-import { CsvToHtmlTable } from "react-csv-to-table";
+// import { CsvToHtmlTable } from "react-csv-to-table";
 
 interface ICsvVisualizerProps {
   codeText: string;
@@ -9,11 +10,11 @@ interface ICsvVisualizerProps {
 const CsvVisualizer = ({ codeText }: ICsvVisualizerProps): ReactElement => {
   return (
     <>
-      <CsvToHtmlTable
+      {/* <CsvToHtmlTable
         data={codeText}
         csvDelimiter=","
         tableClassName="table table-striped table-hover"
-      />
+      /> */}
     </>
   );
 };

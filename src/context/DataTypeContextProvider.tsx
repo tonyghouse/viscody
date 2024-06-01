@@ -1,3 +1,4 @@
+"use client"
 import { useState } from "react";
 import { DataTypeContext } from "./DataTypeContext";
 import { DataTypeValue } from "../util/DataTypeUtil";

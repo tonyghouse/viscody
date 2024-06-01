@@ -1,3 +1,4 @@
+"use client"
 import "./GraphVisualizer.css"
 import React, { ReactElement, useCallback, useContext } from "react";
 import { IThemeContextType, ThemeContext } from "../context/ThemeContext";

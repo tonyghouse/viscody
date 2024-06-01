@@ -1,3 +1,4 @@
+"use client"
 import { ReactElement, useContext, useEffect } from "react";
 import { DataTypeContext, IDataTypeContextType } from "../context/DataTypeContext";
 import { EdgeModel } from "../models/EdgeModel";

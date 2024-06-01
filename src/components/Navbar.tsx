@@ -1,3 +1,4 @@
+"use client"
 import { ReactElement, useContext } from "react";
 import { IThemeContextType, ThemeContext } from "../context/ThemeContext";
 import DataTypeDropDown from "./DataTypeDropDown";
